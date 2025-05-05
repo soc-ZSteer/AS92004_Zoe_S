@@ -41,7 +41,7 @@ else:
         ["What is the Russian word for 'thank you'?", ["Пожалуйста", "Спасибо", "Здравствуй", "До свидания"], "Спасибо"],
         ["How do you say 'How are you?' in Russian?", ["Как ты?", "Где ты?", "Что ты делаешь?", "Сколько тебе лет?"], "Как ты?"],
         ["Which word means 'water' in Russian?", ["Молоко", "Сок", "Вода", "Чай"], "Вода"],
-        ["What does 'Спасибо' mean?", ["Sorry", "Please", "Thank you", "Excuse me"], "Thank you"],
+        ["What does 'Я не понимаю' mean?", ["Sorry", "Please", "I don't understand", "Excuse me"], "I don't understand"],
         ["What does 'До свидания' mean?", ["Good morning", "Goodbye", "Please", "Excuse me"], "Goodbye"],
         ["Which one means 'milk' in Russian?", ["Сок", "Вода", "Чай", "Молоко"], "Молоко"],
         ["How do you say 'good night' in Russian?", ["Доброе утро", "Спокойной ночи", "Добрый вечер", "Здравствуйте"], "Спокойной ночи"]
