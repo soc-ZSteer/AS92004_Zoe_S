@@ -20,7 +20,7 @@ def ask_question(question, options, correct_answer):
         else:
             print("Invalid input. Please enter a number from 1 to 4.")
     
-    if options[int(answer) - 1].lower() == correct_answer.lower():
+if options[int(answer) - 1].lower() == correct_answer.lower():
         print("Correct!\n")
         return True
     else:
