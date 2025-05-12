@@ -85,8 +85,17 @@ for question in history_questions:
         if ask_question(question[0], question[1], question[2]):
             score += 1
 
-    # Final score
-    total_questions = len(language_questions) + len(history_questions)
-    print(f"Your final score is: {score}/{total_questions}")
+# Final score
+total_questions = len(language_questions) + len(history_questions)
+print(f"Your final score is: {score}/{total_questions}")
+
+if score < 10:
+    print("You need more practice. Keep trying!")
+elif score < 15:
+    print("Good job, but there's room to improve!")
+elif score < 20:
+    print("Great work! You're almost perfect!")
+else:
+    print("Perfect score! Excellent job!")
 
     
