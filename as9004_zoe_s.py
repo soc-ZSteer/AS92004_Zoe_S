@@ -49,7 +49,7 @@ while True:
 if ready != "yes":
     print("Okay, maybe next time!")
 else:
-    
+#Section 1: Russian language questions
     language_questions = [
         ["What does 'Привет' mean?", ["Goodbye", "Hello", "Please", "Thank you"], "Hello"],
         ["How do you say 'Good morning' in Russian?", ["Добрый день", "Доброе утро", "Спокойной ночи", "Добрый вечер"], "Доброе утро"],
@@ -66,7 +66,7 @@ else:
     for question in language_questions:
         if ask_question(question[0], question[1], question[2]):
             score += 1
-    # Section 2: Russian History questions
+# Section 2: Russian History questions
     print("\nSection 2: Russian History\n")
     history_questions = [
         ["Who was the first Tsar of Russia?", ["Peter the Great", "Nicholas II", "Ivan the Terrible", "Catherine the Great"], "Ivan the Terrible"],
@@ -85,7 +85,7 @@ for question in history_questions:
         if ask_question(question[0], question[1], question[2]):
             score += 1
 
-# Final score
+# Final score and comment
 total_questions = len(language_questions) + len(history_questions)
 print(f"Your final score is: {score}/{total_questions}")
 
